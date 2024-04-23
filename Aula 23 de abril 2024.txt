@@ -4,7 +4,33 @@ class Vetor2d{
 private:
 	float x, y;
 public:
-	Vetor2d()  // Métodos que não recebem argumentos são chamdos métodos construtor  (deve possuir o mesmo nome da classe).
+	Vetor2d()  // Construtor da classe Vetro2d. Métodos que não recebem argumentos são chamdos métodos construtor  (deve possuir o mesmo nome da classe). Não possui tipo de retorno (Tipo void, int...)
+		   // Construtor padrão (Não possui argumentos). Servem para atribuir um valor inicial para um objeto da classe.
 
 
+}
+
+Método destrutor da classe // Possui o mesmo noma da classe precedido do símbolo "~". Por exemplo, ~Vetor2d()
+
+**************************************
+
+main( ){
+Matriz m(3,4);
+m(1,2)=38;
+m.print
+}
+Os construtores são utilizados para alocar memória e definir o objeto da forma que o programador necessita. É necessário apenas um destrutor para toda a sua classe.
+Os destrutores são usados para liberar a memória alocada pelos construtores. 
+
+int f(int x) \\ passando o valor por cópia
+int f(int *x) \\ passando o valor por valor
+int f(int &x) \\ passando o valor por referência
+
+main( )
+int a
+f(a);
+cou,, a;
+
+void f(int &x){
+x=8;
 }
