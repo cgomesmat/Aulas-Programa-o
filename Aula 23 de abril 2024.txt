@@ -1,0 +1,10 @@
+Construtores e destutores
+
+class Vetor2d{
+private:
+	float x, y;
+public:
+	Vetor2d()  // Métodos que não recebem argumentos são chamdos métodos construtor  (deve possuir o mesmo nome da classe).
+
+
+}
