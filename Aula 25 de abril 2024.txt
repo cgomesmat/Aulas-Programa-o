@@ -36,3 +36,15 @@ Projeto da 2a unidade
 
 https://agostinhobritojr.github.io/curso/progav-dca0803/escultor.html
 
+programa 3dviwer.net
+
+MashLab
+
+A arquivo terá um formato OFF
+
+No arquivo OFF   (N° de vértices, sequencia dos vertices , cores RGB, transparência)
+
+
+
+
+
