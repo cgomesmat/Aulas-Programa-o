@@ -1,0 +1,38 @@
+Tipos primitivos em C++
+
+Classes & ponteiros
+
+Endereço de memória ou ponteiro ocupa 8 bytes
+
+PV = & v1 // Guarda um endereço de memória
+
+this // ponteiro especial que aponda para o próprio objeto 
+
+new/delete // Alocação e liberação de memória
+
+new[] / delete[] // Usados para alocação e liberação de memória de blocos
+
+
+#include,iostream.
+
+int main(){
+
+int *x
+x= new int;
+*x=4;
+
+delete x;
+
+x= new int[n];
+x{2]=5;
+
+delete [] x;
+
+}
+
+agostinhobritojr.github.io
+
+Projeto da 2a unidade
+
+https://agostinhobritojr.github.io/curso/progav-dca0803/escultor.html
+
