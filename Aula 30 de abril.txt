@@ -1,0 +1,26 @@
+Explicação do projeto da 2a unidade
+
+Geowiew
+
+#include Sculptor
+
+Cuiddos para cirar uma face:
+
+1)Escolher uma sequência de vértices que circule em  torno da face sem pular vértices;
+
+2)Backface culling (Pode as faces que não estão visíveis);
+
+Formato=(vértices, R, G, B, alpha)
+
+Criar uma classe em c++ para fazer  desenhos.
+
+Sculptor s(10,10,10)  Tamanho da matriz 3d que vc vai guardar  (linhas, colunas, profundidade) - Construtor da classe
+nx, ny, nz são as dimensões da matriz
+s.setcolor(1,0,0,1) Guarda a cor
+Métodos que começam por put --> sai na impressão
+Métodos que começam com cut --> Não sairá na impressão
+
+s.putvoxel(2,0,0);
+s.setcolor(0,0,1,1);
+s.putvoxel(0,0,0);
+s.writeCFF("cubos off");
