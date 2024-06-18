@@ -4,3 +4,12 @@ https://www.qt.io/product/development-tools
 
 Software inkscape  // canva
 
+class Herdeira: public Base{
+
+}
+
+Base *b;
+Herdeira h;
+
+Polimorfismo 
+
