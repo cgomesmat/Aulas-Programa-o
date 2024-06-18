@@ -13,3 +13,5 @@ Herdeira h;
 
 Polimorfismo 
 
+Embaralhar: sttd::ramdom_shuffle(interator begin  , interation final  )
+
