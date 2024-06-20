@@ -1,0 +1,11 @@
+Fábrica ABSTRATA (Abstract factory)
+
+Elipse <<x><y><raiox><raioy>
+Cubo <<x><y><lado>>
+Retângulo <<x>><yy>><largura><altura>>
+
+elipse 3.4  8.3  1.9  3.4
+retangulo 1  2 30  17
+cubo 1  6  2.4
+
+fid.good ---> Enquanto a leitura estiver sendo realizada ele não sai do arquivo ("loop infinito")
